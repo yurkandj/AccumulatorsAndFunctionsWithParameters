@@ -4,8 +4,8 @@ in its simplest classic forms:
    SUMMING:       total = total + number
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Dominic Yurkanin.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -17,7 +17,7 @@ def main():
 def run_test_sum_powers():
     """ Tests the   sum_powers   function. """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement this function.
+    # DONE: 2. Implement this function.
     #   It TESTS the  sum_powers  function defined below.
     #   Include at least **   3   ** tests.
     #
@@ -28,8 +28,20 @@ def run_test_sum_powers():
     print('--------------------------------------------------')
     print('Testing the   sum_powers   function:')
     print('--------------------------------------------------')
+    expected=1
+    answer=sum_powers(1,2)
+    print(expected)
+    print(answer)
 
+    expected=1
+    answer=sum_powers(1,2)
+    print(expected)
+    print(answer)
 
+    expected=1
+    answer=sum_powers(1,2)
+    print(expected)
+    print(answer)
 def sum_powers(n, p):
     """
     What comes in:  A non-negative integer n
@@ -54,7 +66,7 @@ def sum_powers(n, p):
 def run_test_sum_powers_in_range():
     """ Tests the   sum_powers_in_range   function. """
     # ------------------------------------------------------------------
-    # TODO: 4. Implement this function.
+    # DONE: 4. Implement this function.
     #   It TESTS the  sum_powers_in_range  function defined below.
     #   Include at least **   3   ** tests.
     #
@@ -66,7 +78,20 @@ def run_test_sum_powers_in_range():
     print('Testing the   sum_powers_in_range   function:')
     print('--------------------------------------------------')
 
+    expected=1
+    answer=sum_powers_in_range(1,2)
+    print(expected)
+    print(answer)
 
+    expected=1
+    answer=sum_powers_in_range(1,2)
+    print(expected)
+    print(answer)
+
+    expected=1
+    answer=sum_powers_in_range(1,2)
+    print(expected)
+    print(answer)
 def sum_powers_in_range(m, n, p):
     """
     What comes in:  Non-negative integers m and n, with n >= m,

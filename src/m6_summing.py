@@ -17,7 +17,7 @@ def main():
 def run_test_sum_cosines():
     """ Tests the   sum_cosines   function. """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement this function.
+    # DONE: 2. Implement this function.
     #   It TESTS the  sum_cosines  function defined below.
     #   Include at least **   3   ** tests.
     #
@@ -29,6 +29,20 @@ def run_test_sum_cosines():
     print('Testing the   sum_cosines   function:')
     print('--------------------------------------------------')
 
+    expected=1
+    answer=sum_cosines(1)
+    print(expected)
+    print(answer)
+
+    expected=1
+    answer=sum_cosines(1)
+    print(expected)
+    print(answer)
+
+    expected=1
+    answer=sum_cosines(1)
+    print(expected)
+    print(answer)
 
 def sum_cosines(n):
     """
@@ -50,10 +64,11 @@ def sum_cosines(n):
     # ------------------------------------------------------------------
 
 
+
 def run_test_sum_square_roots():
     """ Tests the   sum_square_roots   function. """
     # ------------------------------------------------------------------
-    # TODO: 4. Implement this function.
+    # DONE: 4. Implement this function.
     #   It TESTS the  sum_square_roots  function defined below.
     #   Include at least **   3   ** tests.
     #
@@ -65,7 +80,20 @@ def run_test_sum_square_roots():
     print('Testing the   sum_square_roots   function:')
     print('--------------------------------------------------')
 
+    expected=1
+    answer=sum_square_roots(1)
+    print(expected)
+    print(answer)
 
+    expected=1
+    answer=sum_square_roots(1)
+    print(expected)
+    print(answer)
+
+    expected=1
+    answer=sum_square_roots(1)
+    print(expected)
+    print(answer)
 def sum_square_roots(n):
     """
     What comes in:  A non-negative integer n.
@@ -87,7 +115,9 @@ def sum_square_roots(n):
     #   No fair running the code of  sum_square_roots  to GENERATE
     #   test cases; that would defeat the purpose of TESTING!
     # ------------------------------------------------------------------
-
+    x=0
+    for k in range(n):
+        k=sqrt(x+2)
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
