@@ -7,7 +7,6 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
          their colleagues and Dominic Yurkanin.
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
-
 def main():
     """ Calls the   TEST   functions in this module. """
     run_test_sum_cosines()
@@ -55,15 +54,16 @@ def sum_cosines(n):
         cos(0) + cos(1) + cos(2) + cos(3)   which is about 0.13416.
     """
     # ------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # DONE: 3. Implement and test this function.
     #   Note that you should write its TEST function first (above).
     #   That is called TEST-DRIVEN DEVELOPMENT (TDD).
     #
     #   No fair running the code of  sum_cosines  to GENERATE
     #   test cases; that would defeat the purpose of TESTING!
     # ------------------------------------------------------------------
-
-
+    total=0
+    for k in range(4):
+    total=total+cos(k+1)
 
 def run_test_sum_square_roots():
     """ Tests the   sum_square_roots   function. """
@@ -108,16 +108,16 @@ def sum_square_roots(n):
       which is about 11.854408.
     """
     # ------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # DONE: 5. Implement and test this function.
     #   Note that you should write its TEST function first (above).
     #   That is called TEST-DRIVEN DEVELOPMENT (TDD).
     #
     #   No fair running the code of  sum_square_roots  to GENERATE
     #   test cases; that would defeat the purpose of TESTING!
     # ------------------------------------------------------------------
-    x=0
-    for k in range(n):
-        k=sqrt(x+2)
+    total=0
+    for k in range(5):
+        total=total+sqrt(k+2)
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
