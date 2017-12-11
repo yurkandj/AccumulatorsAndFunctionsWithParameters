@@ -322,31 +322,12 @@ def fancy_sums_of_digits(n):
     #    the    sum_of_digits    function that is DEFINED ABOVE.
     ####################################################################
     # ------------------------------------------------------------------
-    x=n**1000
-    if x < 0:
-        x = -x
+    if n < 0:
+        n = -n
 
-    digit_sum = 0
-    while True:
-        if x == 0:
-            break
-        digit_sum = digit_sum + (x % 10)
-        x = x // 10
-
-    return digit_sum
-    y=n**999
-    if y < 0:
-        y = -y
-
-    digit_sum = 0
-    while True:
-        if y == 0:
-            break
-        digit_sum = digit_sum + (y % 10)
-        y = y // 10
-
-    return digit_sum
-    return x**y
+    x = sum_of_digits(n**1000)
+    y = sum_of_digits(n**999)
+    return sum_of_digits(x**y)
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
